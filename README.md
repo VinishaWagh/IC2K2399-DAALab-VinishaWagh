@@ -1,5 +1,12 @@
-# Lab Task 1
+# DAA Lab Tasks Repository
 
+## Table of Contents
+- [Lab Task 1: Basic Traces, Stacks/Queues, Trees, Complexity (Java)](#lab-task-1)
+- [Lab Task 2: 1D/2D Arrays, Sparse Matrices, Matrix Calculator (Python)](#lab-task-2) (See [Lab2/README.md](Lab2/README.md))
+
+---
+
+# Lab Task 1
 ## Part 1. Trace It Yourself
 
 Input: [8, 3, 15, 6, 2]  
@@ -102,4 +109,30 @@ java Part1Trace
 java Part2StackQueue
 java Part3Tree
 java Part4Complexity
+```
+
+---
+
+# Lab Task 2: Arrays, Sparse Matrices, and Matrix Operations
+
+For complete documentation, Section A/B traces, boundary tests, and space optimization analysis, see [Lab2/README.md](Lab2/README.md).
+
+### Directory Structure
+```
+DAA Lab/
+├── Lab2/
+│   ├── array_1d_operations.py         # Program 1: 1D array operations (insert, delete, search, rotations)
+│   ├── array_2d_operations.py         # Program 2: 2D array operations (insert row, delete row, search, 90° clockwise rotation)
+│   ├── sparse_matrix_operations.py    # Program 3: Sparse matrix conversion, reconstruction, direct addition, Section D analysis
+│   ├── matrix_calculator.py           # Program 4: Menu-driven calculator (add, multiply, transpose, recursive determinant)
+│   └── README.md                      # Comprehensive documentation for Lab 2
+```
+
+### Quick Run Instructions
+```bash
+cd Lab2
+python array_1d_operations.py
+python array_2d_operations.py
+python sparse_matrix_operations.py
+python matrix_calculator.py
 ```
