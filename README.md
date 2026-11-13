@@ -124,7 +124,7 @@ DAA Lab/
 │   ├── array_1d_operations.py         # Program 1: 1D array operations (insert, delete, search, rotations)
 │   ├── array_2d_operations.py         # Program 2: 2D array operations (insert row, delete row, search, 90° clockwise rotation)
 │   ├── sparse_matrix_operations.py    # Program 3: Sparse matrix conversion, reconstruction, direct addition, Section D analysis
-│   ├── matrix_calculator.py           # Program 4: Menu-driven calculator (add, multiply, transpose, recursive determinant)
+│   ├── matrix_calculator.py           # Program 4: Menu-driven calculator (add, multiply, transpose, determinant)
 │   └── README.md                      # Comprehensive documentation for Lab 2
 ```
 
